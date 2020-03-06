@@ -1,0 +1,17 @@
+{
+  "extends": ["standard", "prettier-standard", "plugin:react/recommended"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/display-name": off
+  },
+  "globals": {
+    "test": "readonly",
+    "expect": "readonly",
+    "fetch": "readonly"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+  }
+}
